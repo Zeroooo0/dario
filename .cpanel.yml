@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/youcraf/dario.marketwave.online
+    - /bin/cp -R images $DEPLOYPATH
